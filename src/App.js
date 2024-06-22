@@ -13,7 +13,7 @@ function App() {
   }, []);
   return (
     <div className="bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen">
-      {userCountry ? <Home country={userCountry}/> : <h1>Loading...</h1>}
+      {userCountry ? <Home country={userCountry}/> : <h1 className="text-6xl text-white flex items-center justify-center h-full">Loading...</h1>}
     </div>
   );
 }
