@@ -22,8 +22,8 @@ export default function IndiaHome({ country }) {
     fetchProducts();
   }, []);
   return (
-    <div className="flex flex-col justify-center h-full items-center text-white">
-      <h1 className="text-5xl">
+    <div className="flex flex-col justify-center h-full items-center text-white px-3">
+      <h1 className=" text-3xl md:text-5xl">
         Welcome to the product listing page (Region : {country})
       </h1>
       <p className="text-xl my-8">
