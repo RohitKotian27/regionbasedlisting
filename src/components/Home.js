@@ -20,7 +20,7 @@ export default function IndiaHome({ country }) {
   }
   useEffect(() => {
     fetchProducts();
-  }, [country]);
+  }, []);
   return (
     <div className="flex flex-col justify-center h-full items-center text-white">
       <h1 className="text-5xl">
